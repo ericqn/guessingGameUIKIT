@@ -18,6 +18,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         label.textColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 1)
         label.textAlignment = .center
         label.text = "bobobobbobo"
+        
+        // billy bob joe
                    
         return label
     }()
