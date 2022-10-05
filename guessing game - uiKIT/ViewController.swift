@@ -19,6 +19,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // -> that's true: UITextView allows many lines
     // and UILabel also allows multiple lines
     // what prevents our seeing multiple lines because we limit the height to only 21
+    // viewDidLayoutSubviews function resizes and places most things dynamically below
     let status: UILabel = {
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 350, height: 21))
         label.center = CGPoint(x: 200, y: 285)
